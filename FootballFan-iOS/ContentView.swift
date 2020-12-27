@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var store = PostStore()
+    @StateObject var viewModel = ContentViewModel()
     
     var body: some View {
-        List(store.posts, id: \.id) { item in
+        List(viewModel.posts, id: \.id) { item in
             VStack(alignment: .leading) {
                 Text(item.title)
                     .font(.headline)
                 Text(item.feed)
             }
-        }.onAppear(perform: self.store.fetchPosts)
+        }
     }
 }
 

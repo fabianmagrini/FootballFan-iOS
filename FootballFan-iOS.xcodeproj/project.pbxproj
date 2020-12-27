@@ -12,7 +12,7 @@
 		1E4E353225945D4F009E3A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4E353125945D4F009E3A27 /* Assets.xcassets */; };
 		1E4E353525945D4F009E3A27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4E353425945D4F009E3A27 /* Preview Assets.xcassets */; };
 		1E89E3FE259849C400BF1672 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89E3FD259849C400BF1672 /* Post.swift */; };
-		1E89E40825984E6500BF1672 /* PostStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89E40725984E6500BF1672 /* PostStore.swift */; };
+		1E89E40825984E6500BF1672 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89E40725984E6500BF1672 /* ContentViewModel.swift */; };
 		1E89E40C2598540900BF1672 /* FootballFanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89E40B2598540900BF1672 /* FootballFanService.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		1E4E353425945D4F009E3A27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1E4E353625945D4F009E3A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E89E3FD259849C400BF1672 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		1E89E40725984E6500BF1672 /* PostStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostStore.swift; sourceTree = "<group>"; };
+		1E89E40725984E6500BF1672 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		1E89E40B2598540900BF1672 /* FootballFanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballFanService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +64,7 @@
 				1E4E353625945D4F009E3A27 /* Info.plist */,
 				1E4E353325945D4F009E3A27 /* Preview Content */,
 				1E89E3FD259849C400BF1672 /* Post.swift */,
-				1E89E40725984E6500BF1672 /* PostStore.swift */,
+				1E89E40725984E6500BF1672 /* ContentViewModel.swift */,
 				1E89E40B2598540900BF1672 /* FootballFanService.swift */,
 			);
 			path = "FootballFan-iOS";
@@ -149,7 +149,7 @@
 			files = (
 				1E89E40C2598540900BF1672 /* FootballFanService.swift in Sources */,
 				1E89E3FE259849C400BF1672 /* Post.swift in Sources */,
-				1E89E40825984E6500BF1672 /* PostStore.swift in Sources */,
+				1E89E40825984E6500BF1672 /* ContentViewModel.swift in Sources */,
 				1E4E353025945D4F009E3A27 /* ContentView.swift in Sources */,
 				1E4E352E25945D4F009E3A27 /* FootballFan_iOSApp.swift in Sources */,
 			);
