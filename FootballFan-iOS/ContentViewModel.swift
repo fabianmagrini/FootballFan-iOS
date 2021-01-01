@@ -12,9 +12,9 @@ final class ContentViewModel: ObservableObject {
     @Published var posts = [Post]()
     
     func fetchPosts() {
-        let footballFanService = FootballFanService()
+        let footballFanAPI = FootballFanAPI()
         
-        footballFanService.fetchPosts() { (posts, error) in
+        footballFanAPI.fetchPosts() { (posts, error) in
             guard error == nil else {
                 return
             }

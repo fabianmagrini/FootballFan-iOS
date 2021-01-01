@@ -13,8 +13,22 @@
 		1E4E353525945D4F009E3A27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4E353425945D4F009E3A27 /* Preview Assets.xcassets */; };
 		1E89E3FE259849C400BF1672 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89E3FD259849C400BF1672 /* Post.swift */; };
 		1E89E40825984E6500BF1672 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89E40725984E6500BF1672 /* ContentViewModel.swift */; };
-		1E89E40C2598540900BF1672 /* FootballFanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89E40B2598540900BF1672 /* FootballFanService.swift */; };
+		1E89E40C2598540900BF1672 /* FootballFanAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89E40B2598540900BF1672 /* FootballFanAPI.swift */; };
+		1EA025CC259D9D4D00507CDD /* FootballFan_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA025CB259D9D4D00507CDD /* FootballFan_iOSTests.swift */; };
+		1EA025DC259E98E300507CDD /* URLProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA025DB259E98E300507CDD /* URLProtocolMock.swift */; };
+		1EA025E6259ED0B000507CDD /* posts.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EA025E5259ED0B000507CDD /* posts.json */; };
+		1EA025EC259ED0EE00507CDD /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA025EB259ED0EE00507CDD /* XCTestCase.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EA025CE259D9D4D00507CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E4E352225945D4F009E3A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E4E352925945D4F009E3A27;
+			remoteInfo = "FootballFan-iOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1E4E352A25945D4F009E3A27 /* FootballFan-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FootballFan-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,11 +39,24 @@
 		1E4E353625945D4F009E3A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E89E3FD259849C400BF1672 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		1E89E40725984E6500BF1672 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		1E89E40B2598540900BF1672 /* FootballFanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballFanService.swift; sourceTree = "<group>"; };
+		1E89E40B2598540900BF1672 /* FootballFanAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballFanAPI.swift; sourceTree = "<group>"; };
+		1EA025C9259D9D4D00507CDD /* FootballFan-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FootballFan-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA025CB259D9D4D00507CDD /* FootballFan_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballFan_iOSTests.swift; sourceTree = "<group>"; };
+		1EA025CD259D9D4D00507CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA025DB259E98E300507CDD /* URLProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolMock.swift; sourceTree = "<group>"; };
+		1EA025E5259ED0B000507CDD /* posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = posts.json; sourceTree = "<group>"; };
+		1EA025EB259ED0EE00507CDD /* XCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1E4E352725945D4F009E3A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA025C6259D9D4D00507CDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				1E4E352C25945D4F009E3A27 /* FootballFan-iOS */,
+				1EA025CA259D9D4D00507CDD /* FootballFan-iOSTests */,
 				1E4E352B25945D4F009E3A27 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				1E4E352A25945D4F009E3A27 /* FootballFan-iOS.app */,
+				1EA025C9259D9D4D00507CDD /* FootballFan-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,7 +94,7 @@
 				1E4E353325945D4F009E3A27 /* Preview Content */,
 				1E89E3FD259849C400BF1672 /* Post.swift */,
 				1E89E40725984E6500BF1672 /* ContentViewModel.swift */,
-				1E89E40B2598540900BF1672 /* FootballFanService.swift */,
+				1E89E40B2598540900BF1672 /* FootballFanAPI.swift */,
 			);
 			path = "FootballFan-iOS";
 			sourceTree = "<group>";
@@ -76,6 +105,50 @@
 				1E4E353425945D4F009E3A27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EA025CA259D9D4D00507CDD /* FootballFan-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EA025FA259ED93B00507CDD /* Network Mocking */,
+				1EA025F5259ED89600507CDD /* Test Cases */,
+				1EA025F4259ED7D300507CDD /* Extensions */,
+				1EA025EF259ED7B100507CDD /* Stubs */,
+				1EA025CD259D9D4D00507CDD /* Info.plist */,
+			);
+			path = "FootballFan-iOSTests";
+			sourceTree = "<group>";
+		};
+		1EA025EF259ED7B100507CDD /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				1EA025E5259ED0B000507CDD /* posts.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		1EA025F4259ED7D300507CDD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1EA025EB259ED0EE00507CDD /* XCTestCase.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1EA025F5259ED89600507CDD /* Test Cases */ = {
+			isa = PBXGroup;
+			children = (
+				1EA025CB259D9D4D00507CDD /* FootballFan_iOSTests.swift */,
+			);
+			path = "Test Cases";
+			sourceTree = "<group>";
+		};
+		1EA025FA259ED93B00507CDD /* Network Mocking */ = {
+			isa = PBXGroup;
+			children = (
+				1EA025DB259E98E300507CDD /* URLProtocolMock.swift */,
+			);
+			path = "Network Mocking";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +171,24 @@
 			productReference = 1E4E352A25945D4F009E3A27 /* FootballFan-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1EA025C8259D9D4D00507CDD /* FootballFan-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA025D0259D9D4D00507CDD /* Build configuration list for PBXNativeTarget "FootballFan-iOSTests" */;
+			buildPhases = (
+				1EA025C5259D9D4D00507CDD /* Sources */,
+				1EA025C6259D9D4D00507CDD /* Frameworks */,
+				1EA025C7259D9D4D00507CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA025CF259D9D4D00507CDD /* PBXTargetDependency */,
+			);
+			name = "FootballFan-iOSTests";
+			productName = "FootballFan-iOSTests";
+			productReference = 1EA025C9259D9D4D00507CDD /* FootballFan-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -109,6 +200,10 @@
 				TargetAttributes = {
 					1E4E352925945D4F009E3A27 = {
 						CreatedOnToolsVersion = 12.3;
+					};
+					1EA025C8259D9D4D00507CDD = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1E4E352925945D4F009E3A27;
 					};
 				};
 			};
@@ -126,6 +221,7 @@
 			projectRoot = "";
 			targets = (
 				1E4E352925945D4F009E3A27 /* FootballFan-iOS */,
+				1EA025C8259D9D4D00507CDD /* FootballFan-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +236,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1EA025C7259D9D4D00507CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA025E6259ED0B000507CDD /* posts.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -147,7 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E89E40C2598540900BF1672 /* FootballFanService.swift in Sources */,
+				1E89E40C2598540900BF1672 /* FootballFanAPI.swift in Sources */,
 				1E89E3FE259849C400BF1672 /* Post.swift in Sources */,
 				1E89E40825984E6500BF1672 /* ContentViewModel.swift in Sources */,
 				1E4E353025945D4F009E3A27 /* ContentView.swift in Sources */,
@@ -155,7 +259,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1EA025C5259D9D4D00507CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA025CC259D9D4D00507CDD /* FootballFan_iOSTests.swift in Sources */,
+				1EA025EC259ED0EE00507CDD /* XCTestCase.swift in Sources */,
+				1EA025DC259E98E300507CDD /* URLProtocolMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EA025CF259D9D4D00507CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E4E352925945D4F009E3A27 /* FootballFan-iOS */;
+			targetProxy = 1EA025CE259D9D4D00507CDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1E4E353725945D4F009E3A27 /* Debug */ = {
@@ -318,6 +440,46 @@
 			};
 			name = Release;
 		};
+		1EA025D1259D9D4D00507CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9945X2J62L;
+				INFOPLIST_FILE = "FootballFan-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fabianmagrini.FootballFan-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FootballFan-iOS.app/FootballFan-iOS";
+			};
+			name = Debug;
+		};
+		1EA025D2259D9D4D00507CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9945X2J62L;
+				INFOPLIST_FILE = "FootballFan-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fabianmagrini.FootballFan-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FootballFan-iOS.app/FootballFan-iOS";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -335,6 +497,15 @@
 			buildConfigurations = (
 				1E4E353A25945D4F009E3A27 /* Debug */,
 				1E4E353B25945D4F009E3A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA025D0259D9D4D00507CDD /* Build configuration list for PBXNativeTarget "FootballFan-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA025D1259D9D4D00507CDD /* Debug */,
+				1EA025D2259D9D4D00507CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
