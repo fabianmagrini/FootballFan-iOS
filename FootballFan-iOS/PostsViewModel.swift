@@ -1,5 +1,5 @@
 //
-//  ContentViewModel.swift
+//  PostsViewModel.swift
 //  FootballFan-iOS
 //
 //  Created by Fabian Magrini on 27/12/20.
@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-final class ContentViewModel: ObservableObject {
+final class PostsViewModel: ObservableObject {
     @Published var posts = [Post]()
     
     func fetchPosts() {

@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1E4E352E25945D4F009E3A27 /* FootballFan_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4E352D25945D4F009E3A27 /* FootballFan_iOSApp.swift */; };
-		1E4E353025945D4F009E3A27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4E352F25945D4F009E3A27 /* ContentView.swift */; };
+		1E4E353025945D4F009E3A27 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4E352F25945D4F009E3A27 /* PostsView.swift */; };
 		1E4E353225945D4F009E3A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4E353125945D4F009E3A27 /* Assets.xcassets */; };
 		1E4E353525945D4F009E3A27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4E353425945D4F009E3A27 /* Preview Assets.xcassets */; };
 		1E89E3FE259849C400BF1672 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89E3FD259849C400BF1672 /* Post.swift */; };
-		1E89E40825984E6500BF1672 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89E40725984E6500BF1672 /* ContentViewModel.swift */; };
+		1E89E40825984E6500BF1672 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89E40725984E6500BF1672 /* PostsViewModel.swift */; };
 		1E89E40C2598540900BF1672 /* FootballFanAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E89E40B2598540900BF1672 /* FootballFanAPI.swift */; };
 		1EA025CC259D9D4D00507CDD /* FootballFan_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA025CB259D9D4D00507CDD /* FootballFan_iOSTests.swift */; };
 		1EA025DC259E98E300507CDD /* URLProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA025DB259E98E300507CDD /* URLProtocolMock.swift */; };
@@ -33,12 +33,12 @@
 /* Begin PBXFileReference section */
 		1E4E352A25945D4F009E3A27 /* FootballFan-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FootballFan-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4E352D25945D4F009E3A27 /* FootballFan_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballFan_iOSApp.swift; sourceTree = "<group>"; };
-		1E4E352F25945D4F009E3A27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E4E352F25945D4F009E3A27 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
 		1E4E353125945D4F009E3A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E4E353425945D4F009E3A27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1E4E353625945D4F009E3A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E89E3FD259849C400BF1672 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		1E89E40725984E6500BF1672 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		1E89E40725984E6500BF1672 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
 		1E89E40B2598540900BF1672 /* FootballFanAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballFanAPI.swift; sourceTree = "<group>"; };
 		1EA025C9259D9D4D00507CDD /* FootballFan-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FootballFan-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA025CB259D9D4D00507CDD /* FootballFan_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballFan_iOSTests.swift; sourceTree = "<group>"; };
@@ -88,12 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				1E4E352D25945D4F009E3A27 /* FootballFan_iOSApp.swift */,
-				1E4E352F25945D4F009E3A27 /* ContentView.swift */,
+				1E4E352F25945D4F009E3A27 /* PostsView.swift */,
 				1E4E353125945D4F009E3A27 /* Assets.xcassets */,
 				1E4E353625945D4F009E3A27 /* Info.plist */,
 				1E4E353325945D4F009E3A27 /* Preview Content */,
 				1E89E3FD259849C400BF1672 /* Post.swift */,
-				1E89E40725984E6500BF1672 /* ContentViewModel.swift */,
+				1E89E40725984E6500BF1672 /* PostsViewModel.swift */,
 				1E89E40B2598540900BF1672 /* FootballFanAPI.swift */,
 			);
 			path = "FootballFan-iOS";
@@ -253,8 +253,8 @@
 			files = (
 				1E89E40C2598540900BF1672 /* FootballFanAPI.swift in Sources */,
 				1E89E3FE259849C400BF1672 /* Post.swift in Sources */,
-				1E89E40825984E6500BF1672 /* ContentViewModel.swift in Sources */,
-				1E4E353025945D4F009E3A27 /* ContentView.swift in Sources */,
+				1E89E40825984E6500BF1672 /* PostsViewModel.swift in Sources */,
+				1E4E353025945D4F009E3A27 /* PostsView.swift in Sources */,
 				1E4E352E25945D4F009E3A27 /* FootballFan_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

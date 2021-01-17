@@ -11,7 +11,15 @@ import SwiftUI
 struct FootballFan_iOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                NavigationView {
+                    PostsView()
+                }
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Posts")
+                }
+            }
         }
     }
 }
